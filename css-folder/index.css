@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html, body, .navbar, .header-navbar {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+   
+    background-color: #F1F1F1 !important;
+}
+.nav-link {
+    color: #000 !important ;
+ 
+}
+.logo{
+    height: 80px !important;
+    width: 120px !important ;
+    /* padding: 30px;
+    margin-right: 80px !important; */
+}
+.header-navbar{
+    padding: 8px !important;
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+    background-color: #F1F1F1;
+ 
+}
+.header{
+    z-index: 500;
+}
+.nav-item{
+    padding-left: 30px !important;
+    font-weight: 500;
+}
+.apply-now-btn{
+    height: 40px;
+    width: 140px;
+    background-color: #E50000 !important ;
+}
+.apply-now-btn:hover{
+    border: 1px solid red;
+    font-weight: 500;
+    background-color: #025DB6 !important;
+    color: white;
+}
+.banner-img{
+    height: 640px;
+    width: 650px;
+    object-fit: contain;
+}
+.bannner-img-back{
+    height: 99vh;
+    width: 99vw;
+}
+.banner-txt{
+    padding-right:100px  !important;
+    color: white;
+}
+.banner-txt p{
+text-align: justify;
+}
+.banner-container{
+    position: relative;
+}
+.inner-banner-container{
+    position: absolute;
+    top: 80px;
+}
+.explore-btn{
+    height: 40px;
+    color: white;
+    width: 140px;
+    background-color: #E50000 !important ;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.explore-btn:hover{
+    color:  #025DB6 ;
+}
+.contact-btn{
+    font-weight: 600;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-color: aliceblue;
+    background-color: transparent;
+    border-radius: 8px;
+    margin: 40px;
+}
+.contact-btn:hover{
+    border-color:red;
+    color: red;
+}
+.uni-logo{
+    width: 100% !important;
+    /* height: 70px;
+    margin: 10px; */
+    object-fit: contain;
+}
+.universities-block{
+    margin-top: 50px;
+    margin-bottom: 70px !important;
+}
+.universities-block-heading{
+    margin-bottom: 30px;
+    display: flex;
+justify-content: center;
+align-items: center;
+color: #025DB6;
+}
+.uni-logo-box{
+    background-color: white;
+}
+.uni-buttom-quote h4{
+    display: flex;
+    justify-content: center;
+    color: #025DB6;
+    font-size: xx-large;
+}
+.uni-buttom-quote p{
+    color: rgb(82, 80, 80);
+    display: flex;
+    justify-content: center;
+}
+.services-block-bg-img{
+
+    width: 65vw;
+    height: 73vh;
+}
+
+.services-card{
+    /* padding-right:  60px; */
+    padding: 30px !important;
+    padding-left: 40px !important;
+    padding-right:  40px !important;
+
+
+}
+.services-card:hover {
+background-color: #025DB6;
+color: white;
+}
+.services-block{
+    position: relative;
+}
+.inner-container{
+    box-shadow: 20px 10px 30px rgb(143, 140, 140);
+    margin: 30px 90px;
+    position: absolute;
+    top: 0;
+
+}
+.inner-services-block{
+    /* z-index: 900px !important; */
+}
+.view-all-btn{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+#services-card-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo-card-topic{
+    color: #025DB6  !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.photo-card-description{
+    color: #514f4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-card-txt{
+    /* padding: 50px !important; */
+
+}
+.card{
+color:rgb(143, 140, 140) ;
+    border: none;
+    position: relative;
+    background-color: #F0F0F0 !important;
+     border: none !important;
+}
+.countries-photo{
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.card-body{
+    position: absolute;
+    bottom: 10px !important;
+    font-weight: 600;
+    color: white;
+font-size: 20px;
+}
+.view-all-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px !important;
+}
+.course-photo{
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.card-exam-text{
+    position: absolute;
+    bottom: 10px !important;
+    font-weight: 500;
+    color: white;
+font-size: 15px;
+text-shadow: 3px 5px 10px black;
+}
+.testimonial-topic{
+    color: #025DB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.testimonial-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 30px;
+}
+.blogs-and-updates{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.blogs-and-updates-heading{
+    color: #025DB6;
+    text-align: center;
+}
+.blogs-and-updates-description{
+    color: #514f4f;
+    text-align: center;
+}
+.blogs-and-updates-card{
+    box-shadow: 2px 2px 10px rgb(84, 83, 83);
+    background-color: white;
+gap: 10px;
+}
+.blogs-and-updates-card-button button{
+    background-color: #E50000;
+    color:white;
+    height: 40px;
+    border-radius: none;
+    width: 150px;
+    border: none;
+}
+.blogs-and-updates-card-button{
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.updates-card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 25px;
+}
+.blogs-and-updates-card-description{
+   
+    padding: 25px;  
+}
+.blogs-and-updates-card-description h5{
+color: #025DB6 !important;
+}
+.blogs-and-updates-card-description p{
+color: #6b6666;
+}
+.read-more{
+    text-decoration: none;
+}
+.blogs-and-updates-card-block{
+    margin-top: 40px;
+}
+.footer-container{
+    background-color: #025DB6;
+    margin-bottom: 0%;
+}
+.inner-footer-container{
+    color: #F0F0F0;
+}
+.inner-footer-container ul li{
+    list-style: none;
+ 
+}
+.map{
+    height: 300px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+.follow-us-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.follow-us-text{
+    margin: 10px;
+}
+.follow-us-txt-and-icon{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.last-icon{
+  padding: 8px;
+  font-size: 150%;
+  padding-bottom: 30%;
+}
+.copyright{
+    color: #F0F0F0;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px !important;
+}
+.map{
+    height: 45vh;
+    width: 40vw;
+}
+.about-us-txt h3{
+color: #857c7c;
+font-weight: 650;
+font-size: 33px;
+}
+.about-us-txt p{
+    color: #4b4545;
+line-height: 30px;
+font-size: 16px;
+
+}
+.our-vision{
+    background-color: #025DB6;
+    position: relative;
+    margin-bottom: 10%;
+}
+.our-vision h3{
+    color: #F0F0F0 !important;
+}
+.our-vision p {
+        color: #F0F0F0 !important;
+}
+#our-vision-pic{
+    height: 100%;
+    position: absolute;
+    top: 20%;
+
+}
+.about-us-card-topic{
+color: #025DB6;
+text-align: center;
+margin-top: 5%;
+}
+.staff-bg-img{
+    width: 100%;
+}
+.cards{
+  border-radius: 5px ;
+    box-shadow: 2px 2px 20px rgb(96, 93, 93) !important;
+    position: relative;
+}
+.staff-pic{
+    position: absolute;
+    top: 25px;
+    left: 9px;
+ 
+}
+.staff-pic-photo{
+width: 200px;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .header-navbar{
+        padding: 8px !important;
+        /* padding-left: 120px !important;
+        padding-right: 120px !important; */
+        background-color: #F1F1F1;
+        /* z-index: 500; */
+    }
+    .inner-banner-container{
+        position: relative;
+        top: 0px;
+        background-color: #025DB6 !important;
+    }
+    .bannner-img-back{
+        display: none !important;
+    }
+    .banner-txt{
+        padding: 20px !important;
+    }
+    .banner-txt h1{
+        font-size: 40px;
+    }
+    .banner-btn{
+        display: flex;
+        align-items: center;
+    }
+    .inner-container{
+      
+        margin: 0px;
+        
+    
+    }
+    .countries-section{
+        margin-top: 1150px;
+    }
+    .card{
+
+}
+.uni-buttom-quote h4{
+  
+    font-size:25px;
+    text-align: center;
+}
+.uni-buttom-quote p{
+   
+    text-align: center;
+  
+}
+.services-block{
+    margin-top: 30px;
+}
+.inner-container{
+    box-shadow: 0px 0px 0px rgb(143, 140, 140);
+}
+
+    .universities-block-laptop-view{
+display: none !important;
+    }
+    .services-block-bg-img{
+        display: none;
+    }
+    .photo-card-topic{
+       
+        display: flex !important;
+        font-size: 20px;
+        font-weight: 700 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .photo-card-description{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .countries-photo{
+        height: 300px;
+        border-radius: 30px;
+        object-fit: cover;
+    }
+    .inner-countries-photo-card-laptop{
+        display: none !important;
+    }
+
+    .inner-course-photo-card-laptop-view{
+        display: none !important;
+    }
+    .blogs-and-updates-card-block{
+    
+        display: flex;
+    flex-direction: column;
+    }
+    .copyright{
+        color: #F0F0F0;
+        text-align: center;
+        font-size: 10px;
+        padding: 20px !important;
+    }
+    
+    .follow-us-txt-and-icon{
+        display: flex;
+     justify-content: center;
+        align-items: center;
+    }
+    .last-icon{
+      font-size: 100%;
+      padding-bottom: 30%;
+    }
+.about-us-photo {
+    height: 550px;
+    width: 400px !important;
+    overflow: hidden !important;
+    object-fit: cover;
+}
+#our-vision-pic {
+    height: 100%;
+    position: static;
+    top: 20%;
+
+}
+    
+}
+
+
+
+
+
+
+@media screen and (min-width:500px){
+.universities-block-mobile-view{
+    display: none !important;
+}
+.inner-countries-photo-card-mobile-view{
+    display: none !important;
+}
+.inner-course-photo-card-mobile-view{
+    display: none !important;
+}
+}
