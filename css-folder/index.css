@@ -386,6 +386,9 @@ width: 200px;
     border-radius: 50px;
     object-fit: cover;
 }
+.services{
+    margin-top: 40%;
+}
 
 
 
@@ -520,6 +523,9 @@ display: none !important;
     position: static;
     top: 20%;
 
+}
+.services {
+    margin-top: 1100px;
 }
     
 }

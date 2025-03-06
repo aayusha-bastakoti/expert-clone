@@ -29,8 +29,7 @@
                     data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent"
                     aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,8 +37,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.php">
                                 Home
-                            </a
-            >
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -48,8 +46,7 @@
                                 id="navbarDropdown"
                                 role="button"
                                 data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
+                                aria-expanded="false">
                                 About Us
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -60,12 +57,12 @@
                                     <a class="dropdown-item" href="#">Our Team</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">Testimonials</a>
+                                    <a class="dropdown-item" href="testimonials.php">Testimonials</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link active" aria-current="page" href="services.php">
                                 Services
                             </a>
                         </li>
@@ -76,11 +73,13 @@
                                 id="navbarDropdown"
                                 role="button"
                                 data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
+                                aria-expanded="false">
                                 Courses
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="courses.php">Courses</a>
+                                </li>
                                 <li>
                                     <a class="dropdown-item" href="#">TOFEL</a>
                                 </li>
@@ -102,11 +101,13 @@
                                 id="navbarDropdown"
                                 role="button"
                                 data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
+                                aria-expanded="false">
                                 Countries
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="countries.php">Countries</a>
+                                </li>
                                 <li>
                                     <a class="dropdown-item" href="#"> United Kingdom</a>
                                 </li>
@@ -122,7 +123,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                            <a class="nav-link active" aria-current="page" href="blogs.php">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">
@@ -137,103 +138,4 @@
     </section>
 
 
-    <!-- <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid nav-bar">
-                <img class="nav-bar-logo" src="./images/kasthamandap image.png"
-                    alt>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse"
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item ">
-                            <a class="nav-link active content"
-                                aria-current="page" href="http://localhost/kasthamandap/index.php#">Home</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle content" href="#"
-                                id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                About Us
-                            </a>
-                            <ul class="dropdown-menu"
-                                aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">About
-                                        Us</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        OurTeams</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        Testimonials</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active content"
-                                aria-current="page" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active content"
-                                aria-current="page" href="#">Country</a>
-                        </li>
-
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle content" href="#"
-                                id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Courses
-                            </a>
-                            <ul class="dropdown-menu"
-                                aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">PTE
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        TOFEL</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        Duolingo English Test</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        IELTS</a></li>
-
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle content" href="#"
-                                id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Countries
-                            </a>
-                            <ul class="dropdown-menu"
-                                aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">United Kingdom
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        United States</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                      Australia</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        Denmark</a></li>
-
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active content"
-                                aria-current="page" href="#">Blogs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active content"
-                                aria-current="page" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                    <button class="btn bg-danger btn-nav-bar"
-                        type="submit">Apply Now</button>
-
-
-                </div>
-            </div>
-        </nav>
-    </div> -->
+     
