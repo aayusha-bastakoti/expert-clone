@@ -126,28 +126,14 @@
                             <a class="nav-link active" aria-current="page" href="blogs.php">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link active" aria-current="page" href="contact.php">
                                 Contact
                             </a>
                         </li>
                     </ul>
-                    <button class="btn btn-danger apply-now-btn">Apply Now</button>
+                     <a class="nav-link active" aria-current="page" href="contact.php">
+                    <button class="btn btn-danger apply-now-btn">Apply Now</button></a>
                 </div>
             </div>
         </nav>
     </section>
-
-<section>
-    <table>
-
-    <tr>
-        <th>title</th>
-        <th>name</th>
-        <th>address</th>
-        <th>phone number</th>
-        <th>subject</th>
-    </tr>
-    <tr></tr>
-  </table>
-</section>
-     
