@@ -182,9 +182,9 @@ body,
 
 }
 
-.inner-services-block {
-    /* z-index: 900px !important; */
-}
+/* .inner-services-block {
+    z-index: 900px !important;
+} */
 
 .view-all-btn {
     height: 40px;
@@ -213,11 +213,11 @@ body,
     justify-content: center;
     align-items: center;
 }
-
+/* 
 .photo-card-txt {
-    /* padding: 50px !important; */
+    padding: 50px !important;
 
-}
+} */
 
 .card {
     color: rgb(143, 140, 140);
