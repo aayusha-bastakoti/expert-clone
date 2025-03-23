@@ -485,13 +485,49 @@ font-family: DM Sans;
     font-size: 22px !important;
 
 }
+.icon{
+ color: #025DB6;
+        /* text-align: center; */
+            font-size: 30px;
+            padding: 20px !important;
+}
 
+.info-div {
+    display: flex;
+    justify-content: space-around !important;
+    text-align: center;
+ 
+}
 
+.info-tag{
+text-decoration: none;
+color: #6f6767;
+}
+.contact-card{
+    background-color:#F1F1F1;
+    padding: 20px;
+        box-shadow: 20px 10px 30px rgb(143, 140, 140);
+}
+.overlay-right{
+    position: absolute;
+    right: 40px;
+    z-index: 100px;
+}
+.contact-image{
+    position: relative;
+}
+.overlay-left {
+    position: absolute;
+}
+.contact-photo{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 500px;
 
-
-
-
-
+}
 
 
 

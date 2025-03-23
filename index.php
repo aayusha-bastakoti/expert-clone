@@ -162,7 +162,7 @@ include("includes/header.php");
                             </div>
                         </div>
                         <div class="col-lg-4" id="services-card-btn">
-                            <button class="view-all-btn">View All</button>
+                          <a href="services.php">  <button class="view-all-btn">View All</button></a>
                         </div>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ include("includes/header.php");
             </div>
         </div>
         <div class="view-all-btn-div">
-            <button class="view-all-btn">View All</button>
+           <a href="countries.php"> <button class="view-all-btn">View All</button></a>
         </div>
     </div>
 </section>
@@ -377,7 +377,7 @@ include("includes/header.php");
             </div>
         </div>
         <div class="view-all-btn-div">
-            <button class="view-all-btn">View All</button>
+          <a href="courses.php"> <button class="view-all-btn">View All</button></a> 
         </div>
     </div>
 </section>
@@ -388,7 +388,7 @@ include("includes/header.php");
                 <h4 class="testimonial-topic">Testimonials</h4>
             </div>
             <div class="testimonial-btn">
-                <button class="view-all-btn">View All</button>
+               <a href="contact.php"> <button class="view-all-btn">View All</button></a>
             </div>
         </div>
     </div>

@@ -2,33 +2,33 @@
 include("includes/header.php");
 ?>
 
- <main>
-            <section class="contact-info">
+<main>
+    <section class="contact-info">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7 col-sm-12 my-4">
                     <div class="contact-topic">
-                    <h2>Get in touch!</h2>
-                    <p>We love to hear from you!!</p>
+                        <h2>Get in touch!</h2>
+                        <p>We love to hear from you!!</p>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-12 my-4">
                     <div class="row">
-                        <div class="col-md-4 col-sm-12">
-                            <a href="/">
-                                <i class="fa-solid fa-location-dot"></i>
+                        <div class="col-md-4 col-sm-12 info-div">
+                            <a href="/" class="info-tag">
+                                <i class="ri-map-pin-line icon"></i>
                                 <h5>Putalisadak, Kathmandu, Nepal</h5>
                             </a>
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <a href="mailto:info@evc.edu.np">
-                                <i class="fa-solid fa-envelope"></i>
+                        <div class="col-md-4 col-sm-12 info-div">
+                            <a href="mailto:info@evc.edu.np"class="info-tag">
+                                <i class="ri-mail-fill icon"></i>
                                 <h5>info@evc.edu.np</h5>
                             </a>
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <a href="tel:014168189 / 9855085588">
-                                <i class="fa-solid fa-phone"></i>
+                        <div class="col-md-4 col-sm-12 info-div">
+                            <a href="tel:014168189 / 9855085588"class="info-tag">
+                                <i class="ri-phone-fill icon"></i>
                                 <h5>014168189 / 9855085588</h5>
                             </a>
                         </div>
@@ -38,7 +38,7 @@ include("includes/header.php");
         </div>
     </section>
 
-    <!-- <section class="contact-form mb-4">
+    <section class="contact-form mb-4">
         <div class="container">
             <div class="row contact-card justify-content-center">
                 <div class="col-md-5 col-sm-12">
@@ -82,28 +82,28 @@ include("includes/header.php");
                         </fieldset>
                     </form>
                 </div>
-                <div class="col-md-5 col-sm-12 contact-image position-relative">
+                <div class="col-md-5 col-sm-12 contact-image">
                     <div class="overlay">
-                        <div class="overlay-right position-absolute">
-                            <img src="https://evc.edu.np/frontend/images/contactblue.png" width="250" height="150"
+                        <div class="overlay-right ">
+                            <img src="./expert-img/contactblue.png" width="250" height="150"
                                 alt="loading" />
 
                         </div>
-                        <div class="overlay-left position-absolute">
-                            <img src="https://evc.edu.np/frontend/images/contactblue.png" width="250" height="15"
+                        <div class="overlay-left ">
+                            <img src="./expert-img/contactblue.png" width="250" height="15"
                                 alt="loading" />
 
                         </div>
                     </div>
-                    <div class="media-wrapper position-relative">
-                        <img src="https://evc.edu.np/admin/images/20221225013101contact_image-contact.jpeg"
+                    <div class="media-wrapper ">
+                        <img class="contact-photo" src="https://evc.edu.np/admin/images/20221225013101contact_image-contact.jpeg"
                             alt="contact" />
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
-    </main>
+    </section>
+</main>
 
 
 
