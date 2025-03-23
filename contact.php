@@ -81,6 +81,7 @@ include("includes/header.php");
                             </button>
                         </fieldset>
                     </form>
+
                 </div>
                 <div class="col-md-5 col-sm-12 contact-image">
                     <div class="overlay">
@@ -102,6 +103,9 @@ include("includes/header.php");
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        
     </section>
 </main>
 
