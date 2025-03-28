@@ -103,8 +103,7 @@ include("includes/header.php");
                 </div>
             </div>
         </div>
-    </section>
-    <section>
+
         
     </section>
 </main>
