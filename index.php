@@ -465,6 +465,7 @@ include("includes/header.php");
         </div>
     </div>
 </section>
+<p>hello</p>
 <?php
 include("includes/footer.php");
 ?>

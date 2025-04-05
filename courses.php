@@ -74,7 +74,7 @@ include("includes/header.php");
             </div>
 </section>
 
-<section></section>
+
 <?php
 include("includes/footer.php");
 ?>
