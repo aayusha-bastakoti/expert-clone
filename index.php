@@ -381,6 +381,7 @@ include("includes/header.php");
         </div>
     </div>
 </section>
+<section>hello</section>
 <section>
     <div class="testimonial-block">
         <div class="container">
@@ -465,7 +466,7 @@ include("includes/header.php");
         </div>
     </div>
 </section>
-<p>hello</p>
+
 <?php
 include("includes/footer.php");
 ?>
