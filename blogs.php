@@ -51,6 +51,7 @@ include("includes/header.php");
                             </div>
                         </div>
                     </div>
+                    <p></p>
                     <div class="col-md-6 col-lg-4">
                         <div class="blogs-and-updates-card">
                             <div class="blogs-and-updates-card-button">
