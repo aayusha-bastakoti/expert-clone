@@ -42,7 +42,8 @@ include("includes/header.php");
     <div class="universities-block py-5">
         <div class="container">
             <h3 class="universities-block-heading">Our Partner Universities</h3>
-            <div class="universities-block-laptop-view">
+            <!-- <div class="universities-block-laptop-view"> -->
+            <div class="mySwiper">
                 <div class="container overflow-hidden">
                     <div class="row gx-5">
                         <div class="col-lg-2">
@@ -78,7 +79,8 @@ include("includes/header.php");
                     </div>
                 </div>
             </div>
-            <div class="universities-block-mobile-view">
+            <!-- </div> -->
+            <!-- <div class="universities-block-mobile-view">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -98,7 +100,7 @@ include("includes/header.php");
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -162,7 +164,7 @@ include("includes/header.php");
                             </div>
                         </div>
                         <div class="col-lg-4" id="services-card-btn">
-                          <a href="services.php">  <button class="view-all-btn">View All</button></a>
+                            <a href="services.php"> <button class="view-all-btn">View All</button></a>
                         </div>
                     </div>
                 </div>
@@ -188,10 +190,7 @@ include("includes/header.php");
                         <div class="row">
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="countries-photo"
-                                        src="./expert-img/denmark.jpeg"
-                                        class="card-img-top"
+                                    <img class="countries-photo" src="./expert-img/denmark.jpeg" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
                                         <p class="card-title">Denmark</p>
@@ -200,11 +199,8 @@ include("includes/header.php");
                             </div>
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="countries-photo"
-                                        src="./expert-img/united-kingdom.jpg"
-                                        class="card-img-top"
-                                        alt="...">
+                                    <img class="countries-photo" src="./expert-img/united-kingdom.jpg"
+                                        class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <p class="card-title">United Kingdom</p>
                                     </div>
@@ -212,10 +208,7 @@ include("includes/header.php");
                             </div>
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="countries-photo"
-                                        src="./expert-img/australia.jpg"
-                                        class="card-img-top"
+                                    <img class="countries-photo" src="./expert-img/australia.jpg" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
                                         <p class="card-title">Australia</p>
@@ -224,10 +217,7 @@ include("includes/header.php");
                             </div>
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="countries-photo"
-                                        src="./expert-img/usa.jpg"
-                                        class="card-img-top"
+                                    <img class="countries-photo" src="./expert-img/usa.jpg" class="card-img-top"
                                         alt="...">
                                     <div class="card-body">
                                         <p class="card-title">United States</p>
@@ -247,7 +237,8 @@ include("includes/header.php");
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./expert-img/united-kingdom.jpg" class="d-block w-100 countries-photo" alt="...">
+                                <img src="./expert-img/united-kingdom.jpg" class="d-block w-100 countries-photo"
+                                    alt="...">
                                 <div class="card-body">
                                     <p class="card-title">United Kingdom</p>
                                 </div>
@@ -270,7 +261,7 @@ include("includes/header.php");
             </div>
         </div>
         <div class="view-all-btn-div">
-           <a href="countries.php"> <button class="view-all-btn">View All</button></a>
+            <a href="countries.php"> <button class="view-all-btn">View All</button></a>
         </div>
     </div>
 </section>
@@ -291,10 +282,7 @@ include("includes/header.php");
                         <div class="row">
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="course-photo"
-                                        src="./expert-img/image-Duolingo.jpg"
-                                        class="card-img-top"
+                                    <img class="course-photo" src="./expert-img/image-Duolingo.jpg" class="card-img-top"
                                         alt="...">
                                     <div class="card-exam-text">
                                         <p class="card-title">
@@ -305,10 +293,7 @@ include("includes/header.php");
                             </div>
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="course-photo"
-                                        src="./expert-img/image-ielts.png"
-                                        class="card-img-top"
+                                    <img class="course-photo" src="./expert-img/image-ielts.png" class="card-img-top"
                                         alt="...">
                                     <div class="card-exam-text">
                                         <p class="card-title">What is IELTS Exam?</p>
@@ -317,10 +302,7 @@ include("includes/header.php");
                             </div>
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="course-photo"
-                                        src="./expert-img/PTE-img.jpg"
-                                        class="card-img-top"
+                                    <img class="course-photo" src="./expert-img/PTE-img.jpg" class="card-img-top"
                                         alt="...">
                                     <div class="card-exam-text">
                                         <p class="card-title">What is PTE Exam?</p>
@@ -329,10 +311,7 @@ include("includes/header.php");
                             </div>
                             <div class="col-lg-3 py-2">
                                 <div class="card">
-                                    <img
-                                        class="course-photo"
-                                        src="./expert-img/image-toefl.jpg"
-                                        class="card-img-top"
+                                    <img class="course-photo" src="./expert-img/image-toefl.jpg" class="card-img-top"
                                         alt="...">
                                     <div class="card-exam-text">
                                         <p class="card-title">What is TOEFL Exam?</p>
@@ -377,7 +356,7 @@ include("includes/header.php");
             </div>
         </div>
         <div class="view-all-btn-div">
-          <a href="courses.php"> <button class="view-all-btn">View All</button></a> 
+            <a href="courses.php"> <button class="view-all-btn">View All</button></a>
         </div>
     </div>
 </section>
@@ -389,7 +368,7 @@ include("includes/header.php");
                 <h4 class="testimonial-topic">Testimonials</h4>
             </div>
             <div class="testimonial-btn">
-               <a href="contact.php"> <button class="view-all-btn">View All</button></a>
+                <a href="contact.php"> <button class="view-all-btn">View All</button></a>
             </div>
         </div>
     </div>
@@ -418,7 +397,8 @@ include("includes/header.php");
                             <div class="blogs-and-updates-card-description">
                                 <h5>Introduction to Danish Education system</h5>
                                 <p>
-                                    If you are curious and would like to know more about the Danish education system, then this publication is definitely for you.
+                                    If you are curious and would like to know more about the Danish education system,
+                                    then this publication is definitely for you.
                                 </p>
                                 <a class="read-more" href="read more">Read More</a>
                             </div>
@@ -436,7 +416,9 @@ include("includes/header.php");
                                     Cost of living in the UK for international students
                                 </h5>
                                 <p>
-                                    Great Britain holds great expectations for international students. But, what is the cost of living in the UK? What will be the average monthly cost in the UK for an international student?
+                                    Great Britain holds great expectations for international students. But, what is the
+                                    cost of living in the UK? What will be the average monthly cost in the UK for an
+                                    international student?
                                 </p>
                                 <a class="read-more" href="read more">Read More</a>
                             </div>
@@ -452,7 +434,9 @@ include("includes/header.php");
                             <div class="blogs-and-updates-card-description">
                                 <h5>5 ways to improve yourself</h5>
                                 <p>
-                                    Studying in Australia will provide you with numerous educational and personal benefits where you can gain experiences and skills that employers from all over the world will be looking for.
+                                    Studying in Australia will provide you with numerous educational and personal
+                                    benefits where you can gain experiences and skills that employers from all over the
+                                    world will be looking for.
                                 </p>
                                 <a class="read-more" href="read more">Read More</a>
                             </div>

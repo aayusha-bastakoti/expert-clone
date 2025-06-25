@@ -63,9 +63,9 @@ include("includes/header.php");
                                 for a well-presented.
                             </div>
                         </div>
-                        <!-- <div class="col-lg-4" id="services-card-btn">
-                            <button class="view-all-btn">View All</button>
-                        </div> -->
+                        <div class="col-lg-4" id="services-card-btn">
+                            <button class="view-all-btn"><a href="services-show.php">View All</a></button>
+                        </div>
                     </div>
                 </div>
             </div>

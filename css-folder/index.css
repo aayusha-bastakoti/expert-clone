@@ -529,6 +529,21 @@ color: #6f6767;
     z-index: 500px;
 
 }
+    .show-pg-main-img {
+        height: 65vh;
+        width: 55vw;
+    
+        object-fit: cover;
+        border-radius: 9px;
+    }
+    .show-pg-heading{
+  margin-top: 20px;
+            display: flex;
+          
+            align-items: center;
+            color: #025DB6;
+    }
+
 
 
 
