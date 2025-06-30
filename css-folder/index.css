@@ -529,9 +529,13 @@ color: #6f6767;
     z-index: 500px;
 
 }
+.media-wrapper{
+    width: 100%;
+    height: 60%;
+}
     .show-pg-main-img {
-        height: 65vh;
-        width: 55vw;
+        height: 100%;
+        width: 100%;
     
         object-fit: cover;
         border-radius: 9px;
@@ -543,8 +547,52 @@ color: #6f6767;
             align-items: center;
             color: #025DB6;
     }
+      
+    .bg-pattern {
+        background: repeating-linear-gradient(45deg,
+                #b490f6,
+                #b490f6 10px,
+                #a47ae2 10px,
+                #a47ae2 20px);
+        height: 130px;
+    }
+    
+    /* Team image positioned over the pattern */
+    .team-img-wrapper {
+        margin-top: -60px;
+        width: 120px;
+        height: 120px;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .team-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .team-card {
+        border: none;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #f8f9fa;     }
 
 
+
+.show-para p{
+    color: #6f6767;
+        line-height: 30px;
+        font-size: 17px !important;
+        font-weight: 400;
+         text-align: justify;
+    }
+    .show-img{
+        height: 18vh;
+        width: 8vw;
+        border-radius: 20px;
+    }
 
 
 

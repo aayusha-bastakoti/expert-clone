@@ -12,6 +12,8 @@
         rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
 
 </head>
 
@@ -54,7 +56,7 @@
                                     <a class="dropdown-item" href="./about-us.php">About Us</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">Our Team</a>
+                                    <a class="dropdown-item" href="./our-team.php">Our Team</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="testimonials.php">Testimonials</a>
